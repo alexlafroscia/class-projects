@@ -1,0 +1,84 @@
+# Gitignore setup borrowed from:
+# http://discuss.cocos2d-x.org/t/git-project-creation-workflow/17707/3
+
+frameworks/js*
+frameworks/cocos*
+.apk
+.exe
+runtime/*
+tools/*
+publish/*
+frameworks/runtime-src/proj.android/obj/*
+frameworks/runtime-src/proj.android/bin/*
+frameworks/runtime-src/proj.android/gen/*
+frameworks/runtime-src/proj.android/libs/*/libcocos2djs.so
+
+# from frameworks/js-bindings/cocos2d-x/.gitingore
+# Ignore files build by Visual Studio
+.obj
+.exe
+.pdb
+.aps
+.vcproj..user
+.vcxproj.user
+.csproj.user
+.vspscc
+i.c
+.i
+.icf
+*p.c
+.ncb
+.suo
+.tlb
+.tlh
+.bak
+.cache
+.ilk
+.log
+[Bb]in
+[Dd]ebug/
+[Dd]ebug.win32/
+.sbr
+.sdf
+obj/
+[Rr]elease/
+[Rr]elease.win32/
+_ReSharper*/
+[Tt]est[Rr]esult*
+ipch/
+*.opensdf
+
+# Ignore python compiled files
+*.pyc
+
+\build_*_xcode/
+build_*_vc10/
+
+# Ignore files build by xcode
+.modev*
+.pbxuser
+.xcbkptlist
+.xcworkspacedata
+.xcuserstate
+.xccheckout
+xcschememanagement.plist
+.DS_Store
+._.xcuserdata/
+DerivedData/
+
+# Ignore files built by AppCode
+.idea/
+
+# Ignore files built by bada
+.Simulator-Debug/
+.Target-Debug/
+.Target-Release/
+
+# Ignore files built by blackberry
+Simulator/
+Device-Debug/
+Device-Release/
+
+# Ignore vim swaps
+.swp
+.swo

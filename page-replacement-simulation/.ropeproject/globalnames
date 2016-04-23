@@ -1,0 +1,7 @@
+€}q(Utests.access_test]qUTestMemoryAccessqaUreplacement_algorithms]qUget_replacement_algorithmqaUreplacement_algorithms.base]qUBaseReplacementqaU
+page_table]q(UPageFaultExceptionq	UPageTableFullExceptionq
+UPageqU	PageTableqeUreplacement_algorithms.demo]qUDemoReplacementqaUreplacement_algorithms.wsc]q(UCircularQueueqUWSCReplacementqeUvm]q(UargsqUparserqUmainqeU
+simulation]qU
+SimulationqaUaccess]q(U
+testIsFiveqUisFiveqeUtests.page_table_test]q(UTestPageTableqUwrite_memory_access_factoryqUread_memory_access_factoryqeUtests.simulation_test]q(UTestSimulationq Ustub_empty_methodq!eU
+playground]q"(UqUitemq#eUtests.simulation]q$(Ustub_load_from_fileq%UTestSimulationq&eUreplacement_algorithms.nru]q'(UPageClassifierq(UNRUReplacementq)eUreplacement_algorithms.clock]q*(hUClockReplacementq+eUaccess_test]q,haUtests.opt_test]q-UTestOptReplacementq.aU5replacement_algorithms.mixins.clear_memory_references]q/UClearMemoryReferencesq0aUreplacement_algorithms.opt]q1UOptReplacementq2au.
