@@ -1,0 +1,96 @@
+# Compression Results
+
+## LZW
+
+| File Name       | Original Size | Compressed Size | Ratio |
+| :--             | :--           | :--             | :--   |
+| all.tar         | 2.9M          | 1.8M            | 1.611 |
+| assig2.doc      | 85K           | 73K             | 1.164 |
+| bmps.tar        | 1.1M          | 904K            | 1.246 |
+| code.txt        | 71K           | 31K             | 2.290 |
+| code2.txt       | 57K           | 24K             | 2.375 |
+| edit.exe        | 231K          | 245K            | 0.942 |
+| frosty.jpg      | 124K          | 174K            | 0.712 |
+| gone_fishin.bmp | 17K           | 9.1K            | 1.868 |
+| large.txt       | 1.2M          | 591K            | 2.079 |
+| Lego-big.gif    | 92K           | 126K            | 0.730 |
+| medium.txt      | 25K           | 13K             | 1.923 |
+| texts.tar       | 1.4M          | 989K            | 1.449 |
+| wacky.bmp       | 901K          | 4.3K            | 209.5 |
+| winnt256.bmp    | 154K          | 156K            | 0.987 |
+
+## MyLZW (Do Nothing Mode)
+
+| File Name       | Original Size | Compressed Size | Ratio |
+| :--             | :--           | :--             | :--   |
+| all.tar         | 2.9M          | 1.7M            | 1.705 |
+| assig2.doc      | 85K           | 40K             | 2.125 |
+| bmps.tar        | 1.1M          | 80K             | 14.08 |
+| code.txt        | 71K           | 24K             | 2.958 |
+| code2.txt       | 57K           | 21K             | 2.714 |
+| edit.exe        | 231K          | 153K            | 1.509 |
+| frosty.jpg      | 124K          | 160K            | 0.775 |
+| gone_fishin.bmp | 17K           | 8.8K            | 1.931 |
+| large.txt       | 1.2M          | 491K            | 2.502 |
+| Lego-big.gif    | 92K           | 120K            | 0.766 |
+| medium.txt      | 25K           | 13K             | 1.923 |
+| texts.tar       | 1.4M          | 584K            | 2.454 |
+| wacky.bmp       | 901K          | 3.9K            | 231.0 |
+| winnt256.bmp    | 154K          | 62K             | 2.483 |
+
+## MyLZW (Reset Mode)
+
+| File Name       | Original Size | Compressed Size | Ratio |
+| :--             | :--           | :--             | :--   |
+| all.tar         | 2.9M          | 1.1M            | 2.636 |
+| assig2.doc      | 85K           | 40K             | 2.125 |
+| bmps.tar        | 1.1M          | 80K             | 14.08 |
+| code.txt        | 71K           | 24K             | 2.958 |
+| code2.txt       | 57K           | 21K             | 2.714 |
+| edit.exe        | 231K          | 149K            | 1.550 |
+| frosty.jpg      | 124K          | 168K            | 0.738 |
+| gone_fishin.bmp | 17K           | 8.8K            | 1.931 |
+| large.txt       | 1.2M          | 516K            | 2.381 |
+| Lego-big.gif    | 92K           | 120K            | 0.766 |
+| medium.txt      | 25K           | 13K             | 1.923 |
+| texts.tar       | 1.4M          | 577K            | 2.484 |
+| wacky.bmp       | 901K          | 3.9K            | 231.0 |
+| winnt256.bmp    | 154K          | 62K             | 2.483 |
+
+## MyLZW (Monitor Mode)
+
+| File Name       | Original Size | Compressed Size | Ratio |
+| :--             | :--           | :--             | :--   |
+| all.tar         | 2.9M          | 1.7M            | 1.705 |
+| assig2.doc      | 85K           | 40K             | 2.125 |
+| bmps.tar        | 1.1M          | 80K             | 14.08 |
+| code.txt        | 71K           | 24K             | 2.958 |
+| code2.txt       | 57K           | 21K             | 2.714 |
+| edit.exe        | 231K          | 153K            | 1.509 |
+| frosty.jpg      | 124K          | 160K            | 0.775 |
+| gone_fishin.bmp | 17K           | 8.8K            | 1.931 |
+| large.txt       | 1.2M          | 491K            | 2.502 |
+| Lego-big.gif    | 92K           | 120K            | 0.766 |
+| medium.txt      | 25K           | 13K             | 1.923 |
+| texts.tar       | 1.4M          | 584K            | 2.454 |
+| wacky.bmp       | 901K          | 3.9K            | 231.0 |
+| winnt256.bmp    | 154K          | 62K             | 2.483 |
+
+## Other Algorithm - GZip
+
+| File Name       | Original Size | Compressed Size | Ratio |
+| :--             | :--           | :--             | :--   |
+| all.tar         | 2.9M          | 950K            | 3.125 |
+| assig2.doc      | 85K           | 23K             | 3.695 |
+| bmps.tar        | 1.1M          | 64K             | 17.6  |
+| code.txt        | 71K           | 15K             | 4.733 |
+| code2.txt       | 57K           | 14K             | 4.071 |
+| edit.exe        | 231K          | 124K            | 1.862 |
+| frosty.jpg      | 124K          | 124K            | 0     |
+| gone_fishin.bmp | 17K           | 8.5K            | 2     |
+| large.txt       | 1.2M          | 482K            | 2.549 |
+| Lego-big.gif    | 92K           | 91K             | 1.010 |
+| medium.txt      | 25K           | 11K             | 2.272 |
+| texts.tar       | 1.4M          | 521K            | 2.751 |
+| wacky.bmp       | 901K          | 2.9K            | 310.6 |
+| winnt256.bmp    | 154K          | 49K             | 3.142 |

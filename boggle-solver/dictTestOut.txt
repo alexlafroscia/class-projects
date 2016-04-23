@@ -1,0 +1,16 @@
+abc is not found
+abe is a prefix
+abet is a word and prefix
+abx is not found
+ace is a word and prefix
+acid is a word and prefix
+hives is a word
+iodin is a prefix
+iodine is a word
+idodinet is not found
+inval is a prefix
+zoo is a word and prefix
+zool is a prefix
+zoology is a word
+zoologys is not found
+zurich is not found

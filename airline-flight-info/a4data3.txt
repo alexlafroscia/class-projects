@@ -1,0 +1,17 @@
+9
+Pittsburgh
+Erie
+Altoona
+Johnstown
+Harrisburg
+Philadelphia
+Scranton
+Reading
+Allentown
+1 2 127 200.00
+1 4 66 125.00
+1 5 205 125.00
+3 7 100 120.00
+5 8 59 200.00
+6 9 62 150.00
+8 9 35 175.00
